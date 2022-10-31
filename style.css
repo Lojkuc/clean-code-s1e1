@@ -13,7 +13,8 @@ body {
 .container-about-matrix img {
   width: 100%;
 }
-.container-about-matrix .more_inf {
+.container-about-matrix 
+.more_inf {
   font-family: fantasy, cursive;
 }
 
