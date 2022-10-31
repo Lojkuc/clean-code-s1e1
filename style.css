@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.container-about-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.container-about-matrix img {
   width: 100%;
 }
-.aaa .more_inf {
+.container-about-matrix .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.container-about-matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.container-add-item {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.block-add-item {
   display: flex;
 }
 ul {
@@ -103,7 +103,7 @@ li {
   align-items: center;
 }
 li > * {
-  vertical-align: middle;completed-tasks
+  vertical-align: middle;completed-block
 }
 
 li > input[type="checkbox"] {
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-block label {
   text-decoration: line-through
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-block input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+ul li.edit-block label {
   display:none;
 }
