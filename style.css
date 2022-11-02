@@ -42,10 +42,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button {
@@ -62,7 +64,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='new__task'] {
+label[for="new__task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +90,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new__task'] {
+label[for="new__task"] {
   display: block;
   margin: 0 0 20px;
 }
